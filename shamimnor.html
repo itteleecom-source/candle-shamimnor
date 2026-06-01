@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شمیم نور | Candle Shamim Noor</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Vazirmatn',sans-serif;
+        }
+
+        body{
+            min-height:100vh;
+            background:linear-gradient(180deg,#fff9f0,#f6ead9,#efe0cb);
+            color:#4a3424;
+            overflow-x:hidden;
+        }
+
+        .container{
+            max-width:600px;
+            margin:auto;
+            padding:25px 20px 50px;
+        }
+
+        .hero{
+            text-align:center;
+            padding-top:30px;
+        }
+
+        .candle{
+            font-size:70px;
+            animation:flicker 2s infinite alternate;
+            display:inline-block;
+        }
+
+        @keyframes flicker{
+            0%{transform:rotate(-2deg) scale(1);}
+            25%{transform:rotate(2deg) scale(1.03);}
+            50%{transform:rotate(-1deg) scale(0.98);}
+            75%{transform:rotate(1deg) scale(1.02);}
+            100%{transform:rotate(-2deg) scale(1);}
+        }
+
+        h1{
+            margin-top:10px;
+            font-size:32px;
+            color:#7d4f28;
+        }
+
+        .subtitle{
+            margin-top:10px;
+            color:#8d6e52;
+            font-size:15px;
+        }
+
+        .card{
+            margin-top:25px;
+            background:rgba(255,255,255,.55);
+            backdrop-filter:blur(10px);
+            border:1px solid rgba(255,255,255,.7);
+            border-radius:24px;
+            padding:25px;
+            box-shadow:0 10px 35px rgba(0,0,0,.08);
+        }
+
+        .welcome{
+            line-height:2.2;
+            text-align:center;
+            font-size:16px;
+        }
+
+        .section-title{
+            margin:30px 0 15px;
+            font-size:20px;
+            color:#7d4f28;
+            text-align:center;
+        }
+
+        .products{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:12px;
+        }
+
+        .product{
+            background:#fffaf3;
+            border-radius:15px;
+            padding:15px;
+            text-align:center;
+            border:1px solid #f0dfc8;
+            font-size:14px;
+        }
+
+        .buttons{
+            margin-top:25px;
+        }
+
+        .btn{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-decoration:none;
+            width:100%;
+            padding:15px;
+            margin-bottom:12px;
+            border-radius:15px;
+            font-weight:600;
+            transition:.3s;
+        }
+
+        .instagram{
+            background:linear-gradient(45deg,#fd5949,#d6249f,#285AEB);
+            color:white;
+        }
+
+        .bale{
+            background:#1fa4ff;
+            color:white;
+        }
+
+        .order{
+            background:#a36d3d;
+            color:white;
+        }
+
+        .btn:hover{
+            transform:translateY(-3px);
+        }
+
+        .footer{
+            margin-top:30px;
+            text-align:center;
+            line-height:2;
+            color:#7c6a5a;
+        }
+
+        .quote{
+            margin-top:20px;
+            padding:18px;
+            background:#fffaf5;
+            border-radius:15px;
+            border-right:4px solid #d5a76d;
+            text-align:center;
+            font-style:italic;
+        }
+
+        @media(max-width:480px){
+            .products{
+                grid-template-columns:1fr;
+            }
+
+            h1{
+                font-size:28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="hero">
+
+        <div class="candle">🕯️</div>
+
+        <h1>شمیم نور</h1>
+
+        <p class="subtitle">
+            Candle Shamim Noor
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <div class="welcome">
+
+            <strong>به دنیای شمیم نور خوش آمدید ✨</strong>
+
+            <br><br>
+
+            من اینجا هستم تا نور را به خانه‌های شما هدیه دهم.
+
+            <br>
+
+            در شمیم نور، شمع فقط یک محصول نیست؛
+            بلکه بخشی از حس آرامش، زیبایی و خاطره‌سازی در کنار عزیزان شماست.
+
+            <br><br>
+
+            زیباترین و ژورنالی‌ترین شمع‌ها را می‌توانید در مجموعه ما مشاهده کنید و سفارش دهید.
+
+        </div>
+
+        <h2 class="section-title">محصولات ما</h2>
+
+        <div class="products">
+
+            <div class="product">🕯️ شمع ژورنالی</div>
+
+            <div class="product">🕯️ شمع قلمی</div>
+
+            <div class="product">🎁 گیفت کودک</div>
+
+            <div class="product">🎉 گیفت تولد</div>
+
+            <div class="product">💍 گیفت عقد و عروسی</div>
+
+            <div class="product">🏫 گیفت مدارس</div>
+
+            <div class="product">🌸 شمع فانتزی</div>
+
+            <div class="product">✨ سفارش اختصاصی</div>
+
+        </div>
+
+        <div class="buttons">
+
+            <a class="btn instagram"
+               href="https://www.instagram.com/candel_shamimnor"
+               target="_blank">
+                مشاهده محصولات در اینستاگرام
+            </a>
+
+            <a class="btn bale"
+               href="https://ble.ir/candelshamim"
+               target="_blank">
+                عضویت در کانال بله
+            </a>
+
+            <a class="btn order"
+               href="https://ble.ir/candelshamim"
+               target="_blank">
+                ثبت سفارش
+            </a>
+
+        </div>
+
+        <div class="quote">
+            نورهای کوچک، لحظه‌های بزرگ می‌سازند ✨
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <strong>شمیم نور</strong>
+
+        <br>
+
+        تولید و عرضه انواع شمع‌های دکوراتیو، فانتزی و مناسب هدیه
+
+        <br><br>
+
+        © 2026 Candle Shamim Noor
+
+    </div>
+
+</div>
+
+</body>
+</html>
